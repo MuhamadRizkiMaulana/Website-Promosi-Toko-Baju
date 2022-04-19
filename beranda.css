@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  /*Header*/
+  #header {
+    background-color: gold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  #header h1 a {
+    float: left;
+    padding: 11px 0;
+    color: white;
+    text-decoration: none;
+  }
+  #header ul {
+    float: right;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .container:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  #header ul li {
+    display: inline-block;
+  }
+  #header ul li a {
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  #header ul li a:hover {
+    background-color: white;
+    color:gold;
+  }
+  #header ul li a.active {
+    background-color: white;
+    color: gold;
+  }
+
+  /*Banner*/
+  #banner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(giana.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.459);
+    flex-direction: column;
+  }
+  #banner h1 {
+    padding: 5px 5px;
+    font-size: 50px;
+  }
+ #banner h1 a {
+     background-color: rgba(255, 255, 255, 0.459);
+     color: gold;
+     text-decoration: none;
+ }
+ #banner h1 a:hover {
+    background-color: gold;
+    color: white;
+ }
+
+ /*konten*/
+  #konten {
+    background-color:  white;
+    padding-top: 50px;
+  }
+  #deskripsi {
+    padding: 50px 30px;
+  }
+  #deskripsi h1 {
+    color: gold;
+  }
+  #deskripsi p {
+    margin-top: 20px;
+    color: black;
+  }
+
+  /*keunggulan*/
+  .box {
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-radius: 50px 50px 0 0;
+    margin: auto;
+    margin-top: 100px;
+    color: gold;
+    background-color: white;
+  }
+  
+  .headunggul {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+  }
+  
+  .keunggulan {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .keunggulan .cardunggul {
+    width: 40vh;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .cardunggul p {
+    color: black;
+  }
+  
+  .keunggulan .cardunggul img {
+    width: 50%;
+    height: 50%;
+  }
+
+  /*footer*/
+  #footer {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: gold;
+    color: white;
+  }
